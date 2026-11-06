@@ -1,0 +1,21 @@
+name: rosen_stock_manager
+description: Gestión de inventario Rosen para Windows y Android.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^3.4.3
+  go_router: ^18.1.3
+  supabase_flutter: ^2.18.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
